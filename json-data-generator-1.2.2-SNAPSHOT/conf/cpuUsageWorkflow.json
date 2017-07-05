@@ -1,0 +1,14 @@
+{
+    "eventFrequency": 400,
+    "varyEventFrequency": false,
+    "repeatWorkflow": true,
+    "timeBetweenRepeat": 1000,
+    "varyRepeatFrequency": true,
+    "steps": [{
+            "config": [{
+                    "timestamp": "now()",
+                    "cpu-used": "double(1.0,100.0)",
+                    "instance-id": "integer(1,4)"
+                    }]
+        }]
+}
