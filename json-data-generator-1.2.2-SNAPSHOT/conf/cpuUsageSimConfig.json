@@ -6,7 +6,7 @@
         }],
     "producers": [{
         "type": "kafka",
-        "broker.server": "172.18.0.3",
+        "broker.server": "10.133.21.78",
         "broker.port": 9092,
         "topic": "cpuUsage",
         "flatten": false,
