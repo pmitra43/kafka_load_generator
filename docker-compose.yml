@@ -16,15 +16,3 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: 10.133.21.78:2181
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-  json_producer:
-    build:
-      context: .
-      dockerfile: JsonProducerDockerfile
-    depends_on:
-      - kafka
-  consumer:
-    build:
-      context: .
-      dockerfile: ConsumerDockerfile
-    depends_on:
-      - kafka
