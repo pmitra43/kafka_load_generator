@@ -3,18 +3,17 @@ services:
   zookeeper:
     image: zookeeper
     ports:
-      - "2181"
+      - "2181:2181"
   kafka:
     image: wurstmeister/kafka
     ports:
       - "9092:9092"
-    hostname: kafka
     depends_on:
       - zookeeper
     environment:
-      KAFKA_ADVERTISED_HOST_NAME: 172.18.0.3
+      KAFKA_ADVERTISED_HOST_NAME: 10.133.21.78
       KAFKA_ADVERTISED_PORT: 9092
-      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ZOOKEEPER_CONNECT: 10.133.21.78:2181
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
   json_producer:

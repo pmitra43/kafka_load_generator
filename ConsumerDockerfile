@@ -3,4 +3,4 @@ RUN apk update && apk add bash
 RUN mkdir -p /kafka/
 COPY kafka_2.11-0.10.2.0 /kafka/
 WORKDIR /kafka
-CMD bin/kafka-console-consumer.sh --bootstrap-server 10.133.21.78:9092 --topic cpuUsage
+CMD bin/kafka-console-consumer.sh --bootstrap-server 10.133.21.78:9092 --topic src-topic1
