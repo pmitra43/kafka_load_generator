@@ -1,14 +1,29 @@
 {
-    "eventFrequency": 400,
-    "varyEventFrequency": false,
-    "repeatWorkflow": true,
-    "timeBetweenRepeat": 1000,
-    "varyRepeatFrequency": true,
-    "steps": [{
-            "config": [{
-                    "timestamp": "now()",
-                    "cpu-used": "double(1.0,100.0)",
-                    "instance-id": "integer(1,4)"
-                    }]
-        }]
+  "eventFrequency": 0,
+  "varyEventFrequency": false,
+  "repeatWorkflow": true,
+  "timeBetweenRepeat": 1000,
+  "varyRepeatFrequency": true,
+  "steps": [{
+    "config": [{
+      "cluster_id": 1,
+      "node_id": 1,
+      "timestamp": "now()",
+      "cpu-used": "double(1.0,100.0)"
+    }]
+  },{
+    "config": [{
+      "cluster_id": 1,
+      "node_id": 2,
+      "timestamp": "now()",
+      "cpu-used": "double(1.0,100.0)"
+    }]
+  },{
+    "config": [{
+      "cluster_id": 1,
+      "node_id": 3,
+      "timestamp": "now()",
+      "cpu-used": "double(1.0,100.0)"
+    }]
+  }]
 }
