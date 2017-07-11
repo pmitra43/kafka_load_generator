@@ -1,5 +1,5 @@
 from random import randint
-fileNumber=int(input("give cluster number: "))
+fileNumber=input("give cluster name: ")
 fileName="./json-data-generator-1.2.2-SNAPSHOT/conf/cpuUsageWorkflow{}.json".format(fileNumber)
 f = open(fileName, 'w')
 
