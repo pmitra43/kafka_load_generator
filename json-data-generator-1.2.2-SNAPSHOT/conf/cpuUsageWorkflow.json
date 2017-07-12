@@ -68,6 +68,906 @@
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(81.0,100.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
 			"cpu":"double(1.0,80.0)"
 		}]
 	},{
@@ -428,7 +1328,61 @@
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{
@@ -614,55 +1568,181 @@
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{
 			"nodeID": 1,
 			"timestamp":"now()",
-			"cpu":"double(81.0,100.0)"
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
+		}]
+	},{
+		"config": [{
+			"nodeID": 1,
+			"timestamp":"now()",
+			"cpu":"double(1.0,80.0)"
 		}]
 	},{
 		"config": [{

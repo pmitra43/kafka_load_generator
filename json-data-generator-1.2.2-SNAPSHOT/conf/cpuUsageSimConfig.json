@@ -2,11 +2,11 @@
     "workflows": [{
             "workflowName": "cpuUsage",
             "workflowFilename": "cpuUsageWorkflow.json",
-            "instances": 500
+            "instances": 1
       }],
     "producers": [{
         "type": "kafka",
-        "broker.server": "10.133.22.173",
+        "broker.server": "127.0.0.1",
         "broker.port": 9092,
         "topic": "hardware-usage",
         "flatten": false,
