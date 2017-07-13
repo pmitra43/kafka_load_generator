@@ -1,9 +1,6 @@
 from random import sample
 class WorkflowGenerator:
 
-    def __init__(self, arg=[]):
-        self.arg=arg
-
     def getInputs(self):
         self.clusterName = input("give cluster name: ")
         self.nodeNumber = input("give node number: ")
@@ -44,15 +41,15 @@ class WorkflowGenerator:
 
         self.println("}")
 
-    def main(self):
-        if len(self.arg)==0:
+    def generate(self,arg=[]):
+        if len(arg)==0:
             self.getInputs()
         else:
-            (self.clusterName, self.nodeNumber, self.time, self.anomalyDuration, self.anomalyCount)=tuple(self.arg)
+            (self.clusterName, self.nodeNumber, self.time, self.anomalyDuration, self.anomalyCount)=tuple(arg)
         self.createFile()
         self.generateAnomalousTimeSeq()
         self.printStepsToFile()
         self.f.close()
 
 if __name__=="__main__":
-    WorkflowGenerator().main()
+    WorkflowGenerator().generate()
