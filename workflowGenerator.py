@@ -1,4 +1,5 @@
 from random import sample
+import json
 class WorkflowGenerator:
 
     def getInputs(self):
@@ -8,12 +9,11 @@ class WorkflowGenerator:
         self.anomalyDuration = int(input("Enter condition for anomaly in seconds: "))
         self.anomalyCount = int(input("Enter number of anomalies to be produced: "))
 
-    def createFile(self):
+    def printToFile(self,s):
         fileName = "./json-data-generator-1.2.2-SNAPSHOT/conf/cpuUsageWorkflow_{}_{}.json".format(self.clusterName, self.nodeNumber)
-        self.f = open(fileName, 'w')
-
-    def println(self,s):
-        self.f.write(s + "\n")
+        f = open(fileName, 'w')
+        f.write(s + "\n")
+        f.close()
 
     def generateAnomalousTimeSeq(self):
         timeSeq = sample(range(int(self.time/self.anomalyDuration)),self.anomalyCount)
@@ -21,35 +21,45 @@ class WorkflowGenerator:
         self.anomalyStartArray.sort()
         print(self.anomalyStartArray)
 
-    def printStepsToFile(self):
-        listPos=0
-        self.println("{\n\t\"eventFrequency\": 1000,\n\t\"varyEventFrequency\": false,\n\t\"repeatWorkflow\": true,")
-        self.println("\t\"timeBetweenRepeat\": 0,\n\t\"varyRepeatFrequency\": false,\n\t\"steps\": [{")
-        for i in range(self.time):
-            self.println("\t\t\"config\": [{{\n\t\t\t\"cluster\": \"{}\",\n\t\t\t\"nodeID\": \"{}\",\n\t\t\t\"timestamp\":\"now()\",".format(self.clusterName, self.nodeNumber))
-            if i>=self.anomalyStartArray[listPos][0] and i < self.anomalyStartArray[listPos][1]:
-                self.println("\t\t\t\"cpu\":\"double(81.0,100.0)\"")
-                if i == (self.anomalyStartArray[listPos][1])-1:
-                    listPos =(listPos + 1)%len(self.anomalyStartArray)
-            else:
-                self.println("\t\t\t\"cpu\":\"double(1.0,80.0)\"")
-            self.println("\t\t}]")
-            if i == self.time-1:
-                self.println("\t}]")
-            else:
-                self.println("\t},{")
+    def generateConfig(self, i):
+        config={}
+        config['cluster']=self.clusterName
+        config['nodeID']=self.nodeNumber
+        config['timestamp']="now()"
+        if i>=self.anomalyStartArray[self.listPos][0] and i < self.anomalyStartArray[self.listPos][1]:
+            config['cpu']="double(81.0,100.0)"
+            if i == (self.anomalyStartArray[self.listPos][1])-1:
+                self.listPos =(self.listPos + 1)%len(self.anomalyStartArray)
+        else:
+            config['cpu']="double(1.0,80.0)"
+        return config
 
-        self.println("}")
+    def generateSteps(self):
+        steps=[]
+        for i in range(self.time):
+            config=[self.generateConfig(i)]
+            dictionary={'config':config}
+            steps.append(dictionary)
+        return steps
+
+    def printStepsToFile(self):
+        self.listPos=0
+        jsonData={}
+        jsonData['eventFrequency']=1000
+        jsonData['varyEventFrequency']=False
+        jsonData['repeatWorkflow']=True
+        jsonData['timeBetweenRepeat']=0
+        jsonData['varyRepeatFrequency']=False
+        jsonData['steps']=self.generateSteps()
+        self.printToFile(json.dumps(jsonData,indent=1,sort_keys=False))
 
     def generate(self,arg=[]):
         if len(arg)==0:
             self.getInputs()
         else:
             (self.clusterName, self.nodeNumber, self.time, self.anomalyDuration, self.anomalyCount)=tuple(arg)
-        self.createFile()
         self.generateAnomalousTimeSeq()
         self.printStepsToFile()
-        self.f.close()
 
 if __name__=="__main__":
     WorkflowGenerator().generate()
