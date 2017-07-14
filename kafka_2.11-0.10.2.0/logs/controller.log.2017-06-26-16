@@ -1,6 +1,0 @@
-[2017-06-26 16:06:57,169] DEBUG [Controller 1]: Controller resigning, broker id 1 (kafka.controller.KafkaController)
-[2017-06-26 16:06:57,170] DEBUG [Controller 1]: De-registering IsrChangeNotificationListener (kafka.controller.KafkaController)
-[2017-06-26 16:06:57,171] INFO [Partition state machine on Controller 1]: Stopped partition state machine (kafka.controller.PartitionStateMachine)
-[2017-06-26 16:06:57,172] INFO [Replica state machine on controller 1]: Stopped replica state machine (kafka.controller.ReplicaStateMachine)
-[2017-06-26 16:06:57,172] INFO [Controller 1]: Broker 1 resigned as the controller (kafka.controller.KafkaController)
-[2017-06-26 16:54:00,237] DEBUG preRegister called. Server=com.sun.jmx.mbeanserver.JmxMBeanServer@66d3c617, name=log4j:logger=kafka.controller (kafka.controller)
