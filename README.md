@@ -19,7 +19,7 @@ If you want to generate data for 2000 nodes belonging to a same cluster, but the
 ##### Machine 1
 ```javascript
 {
-  "topic": "hardware-usage",
+  "topic": "cpu-usage",
 
   "broker": {
     "server": "127.0.0.1",
@@ -37,7 +37,7 @@ If you want to generate data for 2000 nodes belonging to a same cluster, but the
 ##### Machine 2
 ```javascript
 {
-  "topic": "hardware-usage",
+  "topic": "cpu-usage",
 
   "broker": {
     "server": "127.0.0.1",
@@ -56,7 +56,7 @@ If you want to generate data for 2000 nodes belonging to a same cluster, but the
 [clusterConfig](../master/clusterConfig.json) is the main configuration file which contains:
 * `topic` - Name of the Kafka topic to publish to.
 * Kafka broker's details:
-  
+
 Variable | Definition
 -------- | ----------
 `server` | The IP address of the kafka broker server(also referred to as bootstrap server). Currently only one broker server can be given as input.
@@ -76,7 +76,7 @@ Variable | Definition
 2. Run `python3 configGenerator.py` in terminal. If there are no errors, it will generate two types of json files inside [json-data-generator/conf](../../tree/master/json-data-generator-1.2.2-SNAPSHOT/conf).
   * cpuUsageConfig_*clusterName*.json
   * `n` instances of cpuUsageWorkflow_*clusterName*_*nodeNumber*.json where `n` is (`lastNode`-`firstNode`+1) and *nodeNumber* ranges from `firstNode` to `lastNode`.
-3. Run `java -jar json-data-generator-1.2.2-SNAPSHOT/json-data-generator-1.2.2-SNAPSHOT.jar cpuUsageConfig_*clusterName*.json` 
+3. Run `java -jar json-data-generator-1.2.2-SNAPSHOT/json-data-generator-1.2.2-SNAPSHOT.jar cpuUsageConfig_*clusterName*.json`
 
 *Note: Kafka broker should be running before executing the jar.*
 

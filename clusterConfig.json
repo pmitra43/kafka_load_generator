@@ -1,5 +1,5 @@
 {
-  "topic": "hardware-usage",
+  "topic": "cpu-usage",
 
   "broker": {
     "server": "127.0.0.1",
