@@ -29,7 +29,7 @@ class ConfigGenerator:
         firstNode=clusterDetails['firstNode']
         lastNode=clusterDetails['lastNode']
         workflows=[]
-        for nodeNumber in range(firstNode, lastNode):
+        for nodeNumber in range(firstNode, lastNode + 1):
             timeInMins=randint(1,10)
             anomalyCount=timeInMins*randint(1,4)
             self.wfg.generate([self.clusterName, nodeNumber, timeInMins * 60, 10, anomalyCount])
