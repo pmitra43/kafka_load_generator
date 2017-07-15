@@ -1,13 +1,14 @@
 {
-  "producer": {
-    "brokerServer": "127.0.0.1",
-    "brokerPort": 9092,
-    "topic": "hardware-usage"
+  "topic": "hardware-usage",
+
+  "broker": {
+    "server": "127.0.0.1",
+    "port": 9092
   },
+
   "cluster": {
-    "clusterName": "abc",
+    "clusterName": "firstCluster",
     "firstNode": 1,
     "lastNode": 3
-
   }
 }

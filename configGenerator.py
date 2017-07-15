@@ -8,12 +8,12 @@ class ConfigGenerator:
     def __init__(self):
         self.wfg=WorkflowGenerator()
 
-    def getProducer(self,producerDetail):
+    def getProducer(self,brokerDetails,topic):
         kafkaProducer = {}
         kafkaProducer['type']='kafka'
-        kafkaProducer['broker.server']=producerDetail['brokerServer']
-        kafkaProducer['broker.port']=producerDetail['brokerPort']
-        kafkaProducer['topic']=producerDetail['topic']
+        kafkaProducer['broker.server']=brokerDetails['server']
+        kafkaProducer['broker.port']=brokerDetails['port']
+        kafkaProducer['topic']=topic
         kafkaProducer['flatten']=False
         kafkaProducer['sync']=False
         return kafkaProducer
@@ -48,7 +48,7 @@ class ConfigGenerator:
         cfg = json.load(jsonfile)
 
         jsonData={}
-        jsonData['producers']=[self.getProducer(cfg['producer'])]
+        jsonData['producers']=[self.getProducer(cfg['broker'], cfg['topic'])]
         jsonData['workflows']=self.generateWorkflows(cfg['cluster'])
 
         self.printToFile(json.dumps(jsonData,indent=1,sort_keys=False))
