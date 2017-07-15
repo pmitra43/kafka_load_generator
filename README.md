@@ -72,7 +72,7 @@ Variable | Definition
 
 ## To execute:
 
-1. Edit [clusterConfig.json](../master/clusterConfig.json) accordingly. Details below
+1. Edit [clusterConfig.json](../master/clusterConfig.json) according to the details mentioned above.
 2. Run `python3 configGenerator.py` in terminal. If there are no errors, it will generate two types of json files inside [json-data-generator/conf](../../tree/master/json-data-generator-1.2.2-SNAPSHOT/conf).
   * cpuUsageConfig_*clusterName*.json
   * `n` instances of cpuUsageWorkflow_*clusterName*_*nodeNumber*.json where `n` is (`lastNode`-`firstNode`+1) and *nodeNumber* ranges from `firstNode` to `lastNode`.
