@@ -8,6 +8,11 @@ The data generated does not represent actual cpu usage, but generates data which
 The data generated will contain cpu usage from 1 to 100.
 * Some data will be <= 80, which is assumed to be normal data.
 * Some data will be > 80, which is considered anomalous.
+
+For testing purposes, all the sequences will not be of 10 seconds. Few will be of 9 seconds.
+* If the first second modulo 20 is 0, then that sequence will have 10 seconds of anomalous data.
+* Otherwise(i.e. first second modulo 20 is 10), the sequence will have 9 seconds.
+
 Anomalous data will be generated in sequences of 9 secs or 10 secs, which might be consecutive as well. The gap between two sequences is random.
 
 
