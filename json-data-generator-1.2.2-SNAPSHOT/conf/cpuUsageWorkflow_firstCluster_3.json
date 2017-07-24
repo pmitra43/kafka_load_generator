@@ -1,0 +1,20 @@
+{
+ "timeBetweenRepeat": 0,
+ "varyRepeatFrequency": false,
+ "varyEventFrequency": false,
+ "eventFrequency": 1000,
+ "repeatWorkflow": true,
+ "steps": [
+  {
+   "config": [
+    {
+     "cluster": "firstCluster",
+     "cpu": "double(30.0,70.0)",
+     "nodeID": 3,
+     "timeCounter": 0,
+     "timestamp": "now()"
+    }
+   ]
+  }
+ ]
+}

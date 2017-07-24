@@ -1,6 +1,5 @@
 .DS_Store
 json-data-generator-1.2.2-SNAPSHOT/logs/
-json-data-generator-1.2.2-SNAPSHOT/conf/
 kafka_2.11-0.10.2.0/logs/
 logs/
 *.pyc
