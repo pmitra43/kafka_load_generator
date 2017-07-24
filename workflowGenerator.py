@@ -35,7 +35,7 @@ class WorkflowGenerator:
                     self.listPos =(self.listPos + 1)%len(self.anomalyStartArray)
             else:
                 cpu = "double(1.0,80.0)"
-            config = Config(ConfigDetail(self.clusterName, "now()", cpu, self.nodeNumber ))
+            config = Config(ConfigDetail(self.clusterName, cpu, self.nodeNumber, "now()" ))
             steps.append(config)
         return steps
 
