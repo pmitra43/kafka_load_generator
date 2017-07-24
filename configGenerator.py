@@ -2,7 +2,7 @@ import json
 from model.producers import WorkflowConfig
 from model.producers import Producer
 from model.producers import Workflow
-from workFlowGenerator import WorkflowGenerator
+from workflowGenerator import WorkflowGenerator
 
 class ConfigGenerator:
 

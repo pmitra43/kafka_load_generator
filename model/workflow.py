@@ -5,11 +5,12 @@ class Config:
         self.config = [configDetail]
 
 class ConfigDetail:
-    def __init__(self,  cluster, cpu, nodeID, timestamp):
+    def __init__(self,  cluster, cpu, nodeID, timestamp, timeCounter):
         self.cluster = cluster
         self.timestamp = timestamp
         self.cpu = cpu
         self.nodeID = nodeID
+        self.timeCounter = timeCounter
 
 class Workflow:
     def __init__(self, timeBetweenRepeat, varyRepeatFrequency, varyEventFrequency, eventFrequency, repeatWorkflow, configList):
