@@ -1,31 +1,19 @@
 {
  "producers": [
   {
-   "broker.server": "127.0.0.1",
-   "sync": false,
-   "topic": "cpu-usage",
-   "broker.port": 9092,
-   "flatten": false,
+   "broker.server": "127.0.0.1", 
+   "sync": false, 
+   "topic": "cpu-usage", 
+   "broker.port": 9092, 
+   "flatten": false, 
    "type": "kafka"
   }
- ],
+ ], 
  "workflows": [
   {
-   "workflowFilename": "cpuUsageWorkflow_firstCluster_1.json",
-   "instances": 1,
+   "workflowFilename": "cpuUsageWorkflow_firstCluster_1.json", 
+   "instances": 1, 
    "workflowName": "cpuUsage1"
-  },{
-   "workflowFilename": "cpuUsageWorkflow_firstCluster_2.json",
-   "instances": 1,
-   "workflowName": "cpuUsage2"
-  },{
-   "workflowFilename": "cpuUsageWorkflow_firstCluster_3.json",
-   "instances": 1,
-   "workflowName": "cpuUsage3"
-  },{
-   "workflowFilename": "cpuUsageWorkflow_firstCluster_4.json",
-   "instances": 1,
-   "workflowName": "cpuUsage4"
   }
  ]
 }

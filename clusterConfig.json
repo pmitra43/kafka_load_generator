@@ -8,6 +8,6 @@
   "cluster": {
     "clusterName": "firstCluster",
     "firstNode": 1,
-    "lastNode": 3
+    "lastNode": 1
   }
 }

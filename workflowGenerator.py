@@ -13,15 +13,15 @@ class WorkflowGenerator:
         f.write(s + "\n")
         f.close()
 
-    def getAnaomalusRangeForEvenTimeSeq(self, timeSeq):
+    def getAnomalousRangeForCorrectSeq(self, timeSeq):
         return (timeSeq * self.anomalyDuration, (timeSeq+1) * self.anomalyDuration)
 
-    def getAnaomalusRangeForOddTimeSeq(self, timeSeq):
+    def getAnomalousRangeForWrongSeq(self, timeSeq):
         return (timeSeq * self.anomalyDuration, (timeSeq+1) * self.anomalyDuration-1)
 
     def generateAnomalousTimeSeq(self):
         timeSeq = sample(range(int(self.totalWorkflowDuration/self.anomalyDuration)),self.anomalyCount)
-        calculateRange = lambda x: self.getAnaomalusRangeForEvenTimeSeq(x) if x%2==0 else self.getAnaomalusRangeForOddTimeSeq(x)
+        calculateRange = lambda x: self.getAnomalousRangeForCorrectSeq(x) if x%4!=0 else self.getAnomalousRangeForWrongSeq(x)
         self.anomalyStartArray=list(map(calculateRange,timeSeq))
         self.anomalyStartArray.sort()
         print(self.anomalyStartArray)
@@ -48,7 +48,7 @@ class WorkflowGenerator:
 
     def generate(self,arg=[]):
         timeInMins=randint(1,10)
-        self.anomalyCount=timeInMins*randint(1,4)
+        self.anomalyCount=timeInMins*randint(1,6)
         self.totalWorkflowDuration = timeInMins * 60
         self.anomalyDuration = 10
 
