@@ -48,7 +48,7 @@ class WorkflowGenerator:
 
     def generate(self,arg=[]):
         timeInMins=randint(1,10)
-        self.anomalyCount=timeInMins*randint(1,6)
+        self.anomalyCount=timeInMins*randint(1,3)
         self.totalWorkflowDuration = timeInMins * 60
         self.anomalyDuration = 10
 
